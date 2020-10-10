@@ -1,12 +1,12 @@
 # find needle in haystack
-#Question 2
+# Question 2
 haystack = input("Input the haystack having the needles: ").lower()
 needle = input("Which needle do you want to find in the haystack?").lower()
 
 
 def findneedle():
     while len(needle) > len(haystack):
-        return "Invalid input-Needle bigger than haystack"
+        return "somewhere else and not in the haystack"
     letter_index = 0
     for letter in haystack:
         if not (needle in haystack):
@@ -19,8 +19,6 @@ def findneedle():
 
 position = findneedle()
 print("The needle is in the position", position)
-
-
 
 # Question 1
 # Finding the index
