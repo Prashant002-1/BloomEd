@@ -1,5 +1,5 @@
 # Five shapes at four corners and one at edge 
-# Name transform into shape sequentially 
+# Name transforms into shape sequentially 
 from manimlib.imports import *
 
 class WriteName(Scene):
